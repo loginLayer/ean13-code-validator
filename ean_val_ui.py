@@ -70,7 +70,7 @@ class ValidatorApp:
 
         # Open the link when the user clicks on the footer image
         def open_github_link(event):
-            webbrowser.open("https://github.com/loginLayer")
+            webbrowser.open("https://github.com/loginLayer/ean13-code-validator")
 
         # Load and display the footer image
         footer_img_path = os.path.join(os.path.dirname(__file__), 'img', 'footer.png')
